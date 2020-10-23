@@ -1,12 +1,5 @@
 @extends('layouts.layout')
-<script>
-    var correcta = '{{$pregunta[0]->correcta}}';
-     function validaRespuesta(id){
-        console.log(id)
-     }
 
-
-</script>
 <div class="container">
     <div class="row">
         <div class="col-md-3"></div>
@@ -26,3 +19,10 @@
         <div class="col-md-3"></div>
     </div>
 </div>
+
+<script>
+    var correcta = '{{$pregunta[0]->correcta}}';
+        function validaRespuesta(id){
+        console.log(id)
+        }
+</script>
